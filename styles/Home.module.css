@@ -1,0 +1,72 @@
+@font-face {
+  font-family: GraublauWeb;
+  src: url('./fonts/StickyNotes.ttf') format('opentype');
+}
+.container {
+  background-image: url('../public/bgesc.jpg');
+  height: 100vh;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.btn {
+  background-color: #1d1513; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  display: block;
+  float: right;
+}
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.blocoPost {
+  width: 50%;
+}
+.post1 {
+  float: left;
+  transform: rotate(8deg);
+}
+.textarea {
+  font-family: GraublauWeb;
+  font-size: 29px;
+  background-color: transparent;
+  position: absolute;
+  top: 20%;
+  z-index: 999;
+  left: 10%;
+  overflow: hidden;
+  border-color: Transparent;
+  resize: none;
+}
+.textarea:focus {
+  outline: none;
+}
+.post2 {
+  float: left;
+  transform: rotate(-2deg);
+}
+.post3 {
+  float: left;
+  transform: rotate(2deg);
+}
+.post4 {
+  float: left;
+  transform: rotate(6deg);
+}
+.fechar {
+  position: absolute;
+  right: 12%;
+  top: 9%;
+  cursor: pointer;
+  opacity: 0.5;
+}
